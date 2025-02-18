@@ -1,5 +1,5 @@
 @Search
-Feature: Verify search functionality
+Feature: Verify search and filtering functionality
 
   Background: Preconditions
     Given User Opens "Chrome" and the website "https://www.noon.com/egypt-en/"
