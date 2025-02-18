@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="E-commerce Test Suite">
+    <test name="Search Feature Tests">
+        <classes>
+            <class name="runners.TestSearchRunner"/>
+        </classes>
+    </test>
+</suite>
