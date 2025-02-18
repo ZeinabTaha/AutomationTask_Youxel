@@ -24,13 +24,7 @@ public class BasePage {
 
     Wait<WebDriver> wait = new WebDriverWait(driver, Duration.ofSeconds(90));
 
-    public void waitToBeVisible(WebElement element){
-        wait.until(ExpectedConditions.visibilityOf(element));
-    }
-
-
     public void waitToBeInvisible(WebElement element){
-
         wait.until(ExpectedConditions.invisibilityOf(element));
     }
 
